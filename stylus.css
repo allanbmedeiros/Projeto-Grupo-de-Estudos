@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,black,black,blue);
+}
+
+.titulo{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 2px 20px white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 900;
+}
+
+.sub-titulo{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.livro{
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sinopse{
+    width: 800px;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 100px;
+}
+
+button{
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 750;
+    background-color: rgb(126, 177, 224);
+}
